@@ -29,7 +29,7 @@ jobs:
         run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/mpt2sas/rpext-index.json
       
       - name: Add vmxnet3
-        run: ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/vmxnet3/rpext-index.json   
+        run: ./redpill_tool_chain.sh add https://raw.githubusercontent.com/pocopico/rp-ext/main/vmxnet3/rpext-index.json
 
       - name: Build docker image
         run: ./redpill_tool_chain.sh build bromolow-7.0.1-42218
